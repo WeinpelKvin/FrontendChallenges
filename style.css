@@ -1,0 +1,62 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 40px;
+}
+
+.col-1 {
+    text-align: center;
+    width: 100%;
+}
+
+.col-2 {
+    text-align: center;
+    width: 30%;
+}
+
+.logo {
+    max-width: auto;
+    height: 60px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+    background-color: hsl(217, 28%, 15%);
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.nav a {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    padding: 1em;
+    color: white;
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+}
+
+.button {
+    background-color: hsl(176, 68%, 64%);
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
