@@ -21,11 +21,13 @@
 
 .col-3{
     width:50%;
+    min-width: 30%;
     text-align: left;
 }
 
 .paragraph{
     font-size: 14px;
+    font-weight: 100;
 }
 
 .logo {
@@ -41,6 +43,9 @@ body {
 
 h2 {
     padding-bottom: 0px;
+}
+.FlyoWorksTitle{
+    font-size: 40px;
 }
 .attribution {
     font-size: 11px;
@@ -82,7 +87,7 @@ li {
     border: 1px solid red;
 }
 
-@media only screen and (max-width: 768px) { 
+@media only screen and (max-width: 800px) { 
     .col-2 {
       width: 80%;
       text-align: center;
