@@ -20,11 +20,17 @@
 }
 
 .col-3{
-    width:50%;
+    width:45%;
     min-width: 30%;
     text-align: left;
 }
-
+.col-Testimonail{
+    text-align: left;
+    width: 400px;
+    padding: 20px;
+    margin: 20px;
+    background-color: hsl(219, 30%, 18%)
+}
 .paragraph{
     font-size: 14px;
     font-weight: 100;
@@ -32,7 +38,20 @@
 
 .logo {
     margin-top: 10px;
-    height: 60px;
+    height: 40px;
+}
+
+.profile{
+    border-radius: 50%;
+    width: auto;
+    height: 40px;
+    text-align: center;
+    vertical-align: -12px;
+}
+
+.mainText{
+    font-size: 50px; 
+    font-family: 'Raleway', sans-serif;
 }
 
 body {
@@ -96,4 +115,10 @@ li {
         width: 80%;
         text-align: center;
       }
+    .MainImage{
+        width: 90%;
+    }
+    .mainText{
+        font-size: 40px;
+    }
   }
