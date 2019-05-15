@@ -9,6 +9,10 @@
     justify-content: center;
 }
 
+.col-1-60 {
+    width: 60%;
+}
+
 .col-1 {
     width: 100%;
 }
